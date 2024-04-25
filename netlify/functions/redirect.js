@@ -1,5 +1,5 @@
 const INTITUTION_SOCIALS = "https://imam-zain-institution.carrd.co/";
-const MAGAZINE_SOCIALS = "https://imam-zain-institution.carrd.co/";
+const MAGAZINE_SOCIALS = "https://imam-zain-institution-magazine.carrd.co/";
 
 exports.handler = async (event, context) => {
     try {

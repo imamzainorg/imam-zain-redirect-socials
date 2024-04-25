@@ -10,7 +10,7 @@ exports.handler = async (event, context) => {
 
         console.log(event.path);
         // Check if request path is for /magazine
-        if (event.path === '/magazine') {
+        if (event.path === '/.netlify/functions/redirect/magazine') {
             return {
                 statusCode: 302,
                 headers: {

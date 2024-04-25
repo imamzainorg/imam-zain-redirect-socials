@@ -8,6 +8,7 @@ exports.handler = async (event, context) => {
             return { statusCode: 405, body: 'Method Not Allowed' };
         }
 
+        console.log(event.path);
         // Check if request path is for /magazine
         if (event.path === '/magazine') {
             return {

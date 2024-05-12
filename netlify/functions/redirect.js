@@ -1,6 +1,8 @@
 const INTITUTION_SOCIALS = "https://imam-zain-institution.carrd.co/";
 const MAGAZINE_SOCIALS = "https://imam-zain-institution-magazine.carrd.co/";
 
+const NEW_MERGED = "https://imamzainorg.carrd.co/"
+
 exports.handler = async (event, context) => {
     try {
         // Validate HTTP method
@@ -19,7 +21,8 @@ exports.handler = async (event, context) => {
                     'X-Frame-Options': 'DENY',
                     'X-XSS-Protection': '1; mode=block',
                     'Referrer-Policy': 'strict-origin-when-cross-origin',
-                    Location: MAGAZINE_SOCIALS
+                    // Location: MAGAZINE_SOCIALS
+                    Location: NEW_MERGED
                 }
             };
         }
@@ -33,7 +36,8 @@ exports.handler = async (event, context) => {
                 'X-Frame-Options': 'DENY',
                 'X-XSS-Protection': '1; mode=block',
                 'Referrer-Policy': 'strict-origin-when-cross-origin',
-                Location: INTITUTION_SOCIALS
+                // Location: INTITUTION_SOCIALS
+                Location: NEW_MERGED
             }
         };
     } catch (error) {

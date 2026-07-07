@@ -1,4 +1,4 @@
-const INTITUTION_SOCIALS = "https://imam-zain-institution.carrd.co/";
+const INTITUTION_SOCIALS = "https://imamzain.org/links";
 const MAGAZINE_SOCIALS = "https://imam-zain-institution-magazine.carrd.co/";
 
 const NEW_MERGED = "https://imamzainorg.carrd.co/"
